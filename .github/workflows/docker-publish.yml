@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: Solid0us/03_05_challenge_develop_a_container_image_pipeline-repo1/tree/main/.github/workflows/python-app.yml
+    uses:  Solid0us/03_05_challenge_develop_a_container_image_pipeline-repo1/.github/workflows/python-app.yml@main
     permissions:
       contents: read
   build:
